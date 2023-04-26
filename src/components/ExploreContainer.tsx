@@ -9,7 +9,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
     <div className="container">
       <IonGrid>
         <IonRow>
-          {cuisines.map(cuisine =><IonCol size-sm="12" size-md="6" size-lg="4"><Cuisine cuisine={cuisine} /></IonCol>)} 
+          {cuisines.map(cuisine =><IonCol key={cuisine} size-sm="12" size-md="6" size-lg="4"><Cuisine cuisine={cuisine} /></IonCol>)} 
         </IonRow>
       </IonGrid>
          
