@@ -1,5 +1,5 @@
 {
-  "name": "Recipe-bank",
+  "name": "Recipe_bank",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -20,9 +20,11 @@
     "@hookform/resolvers": "^3.1.0",
     "@ionic/react": "^7.0.0",
     "@ionic/react-router": "^7.0.0",
-    "@reduxjs/toolkit": "^1.9.2",
+    "@tanstack/react-query": "^4.29.5",
+    "@tanstack/react-query-devtools": "^4.29.6",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.4.0",
     "dotenv": "^16.0.3",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
@@ -35,6 +37,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "4.7.3",
+    "@tanstack/eslint-plugin-query": "^4.29.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
